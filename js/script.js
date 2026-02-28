@@ -108,7 +108,7 @@ contactForm.addEventListener('submit', (e) => {
     const message = document.getElementById('message').value;
     
     const text = `Hola, soy ${name}. Mi teléfono es ${phone}. ${message}`;
-    const whatsappUrl = `https://wa.me/528000000000?text=${encodeURIComponent(text)}`;
+    const whatsappUrl = `https://wa.me/563054461826?text=${encodeURIComponent(text)}`;
     
     window.open(whatsappUrl, '_blank');
 });
